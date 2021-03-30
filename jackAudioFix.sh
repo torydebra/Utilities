@@ -1,0 +1,1 @@
+pulseaudio --kill && pulseaudio --start

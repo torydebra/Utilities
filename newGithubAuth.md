@@ -17,7 +17,7 @@ sudo make
 git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
 ```
 
-now ** Use the new token created as described above as password **
+now **Use the new token created as described above as password**
 Next time will be the last time we will use the token to authenticate...
 
 

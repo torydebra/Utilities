@@ -1,6 +1,6 @@
 ## Using token instead of password for github
 *password usage will expire on august. So now github wants you generate token and use that as password.
-Since it is imposssible to remember token like 'asfijqwn215165165dasdsdfs' is it useful to store safely it into your pc *
+Since it is imposssible to remember token like 'asfijqwn215165165dasdsdfs' is it useful to store safely it into your pc*
 
 ##### Install keyring 
 ```

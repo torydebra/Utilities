@@ -23,3 +23,9 @@ alias tpo_push='echo -e "\e[96mPushing telephysicaloperation...\e[0m" && cd ~/Te
                 echo -e "\e[96mPushing tpo_web_gui...\e[0m" && cd ~/TelePhysicalOperation/tpo_web_gui/src/tpo_web_gui && git push &&
                 echo -e "\e[96mPushing tpo_gui...\e[0m" && cd ~/TelePhysicalOperation/tpo_gui/src/tpo_gui && git push &&
                 cd ~/TelePhysicalOperation'
+               
+alias tpo_status='echo -e "\e[96mStatusing telephysicaloperation...\e[0m" && cd ~/TelePhysicalOperation/src && git status &&
+                echo -e "\e[96mStatusing tpo_embedded...\e[0m" && cd ~/TelePhysicalOperation/tpo_embedded/src/tpo_embedded && git status &&
+                echo -e "\e[96mStatusing tpo_web_gui...\e[0m" && cd ~/TelePhysicalOperation/tpo_web_gui/src/tpo_web_gui && git status &&
+                echo -e "\e[96mStatusing tpo_gui...\e[0m" && cd ~/TelePhysicalOperation/tpo_gui/src/tpo_gui && git status &&
+                cd ~/TelePhysicalOperation'

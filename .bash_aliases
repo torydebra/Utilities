@@ -32,3 +32,9 @@ alias tpo_status='echo -e "\e[96mStatusing telephysicaloperation...\e[0m" && cd 
                 echo -e "\e[96mStatusing tpo_web_gui...\e[0m" && cd ~/TelePhysicalOperation/tpo_web_gui/src/tpo_web_gui && git status &&
                 echo -e "\e[96mStatusing tpo_gui...\e[0m" && cd ~/TelePhysicalOperation/tpo_gui/src/tpo_gui && git status &&
                 cd ~/TelePhysicalOperation'
+                
+alias tpo_make='echo -e "\e[96mCompiling telephysicaloperation and tpo_msgs...\e[0m" && cd ~/TelePhysicalOperation/ && catkin_make &&
+                echo -e "\e[96mCompiling tpo_embedded...\e[0m" && cd ~/TelePhysicalOperation/tpo_embedded/ && catkin_make &&
+                echo -e "\e[96mCompiling tpo_web_gui...\e[0m" && cd ~/TelePhysicalOperation/tpo_web_gui/ && catkin_make &&
+                echo -e "\e[96mCompiling tpo_gui...\e[0m" && cd ~/TelePhysicalOperation/tpo_gui/ && catkin_make &&
+                cd ~/TelePhysicalOperation'

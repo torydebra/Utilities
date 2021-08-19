@@ -10,6 +10,8 @@ alias tpo='cd ~/TelePhysicalOperation/ && source centauro/devel/setup.bash'
 
 alias tpo_emb='cd ~/TelePhysicalOperation/tpo_embedded && source ./devel/setup.bash'
 
+alias tpo_gui='cd ~/TelePhysicalOperation/tpo_gui && source ./devel/setup.bash'
+
 alias kdev='~/Applications/KDevelop-5.6.1-x86_64_98f9d552ad467fee6aabde145f22b64b.AppImage & disown && exit'
 
 alias tpo_pull='echo -e "\e[96mPulling telephysicaloperation...\e[0m" && cd ~/TelePhysicalOperation/src && git pull &&

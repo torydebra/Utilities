@@ -21,5 +21,21 @@ now **Use the new token created as described above as password**
 Next time will be the last time we will use the token to authenticate...
 
 
+### SSH locked keyring problem
+I had some problem when running the procedure for store the token when doing from a remote ssh (like on the raspberry)
+
+Problem was:
+```
+** (process:1642): CRITICAL **: 10:57:46.780: store failed: Cannot create an item in a locked collection
+```
+
+I solved with: 
+```
+ssh -X <host>
+dbus-run-session bash
+gnome-keyring-daemon -r
+```
+it will ask for user password, 
+and then the token will be stored
 
 

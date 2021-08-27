@@ -35,7 +35,8 @@ ssh -X <host>
 dbus-run-session bash
 gnome-keyring-daemon -r
 ```
-it will ask for user password, 
-and then the token will be stored
+it will ask for user password, and then the token will be stored
+
+**NOTE** To use again the stored password, all the commands above must be used every time :C
 
 

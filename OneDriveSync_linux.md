@@ -7,7 +7,7 @@ To activate, when URI is requested, after login white browser page may arise. Si
 ## Configuration
 full istructions:  https://github.com/abraunegg/onedrive/blob/master/docs/USAGE.md  
 
-My setup has two files in ~/.config/onedrive:
+My setup has two files in `~/.config/onedrive`:
 
 ### `sync_list`
 The **remote** folders that we want to monitor.   

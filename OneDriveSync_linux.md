@@ -2,6 +2,9 @@
 
 ## Install 
 https://github.com/abraunegg/onedrive/blob/master/docs/INSTALL.md
+
+## Activate
+`onedrive`
 To activate, when URI is requested, after login white browser page may arise. Simply copy and paste the URL at the top into the terminal, it is this one that it wants
   
 ## Configuration

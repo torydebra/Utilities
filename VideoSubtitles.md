@@ -7,6 +7,7 @@ Subtitles can be softembedded: they can be attached and then from the video play
   ```
   ffmpeg -i video.mp4 -i sub.srt -c copy -c:s mov_text out.mp4 
   ```
+  (from https://stackoverflow.com/questions/8672809/use-ffmpeg-to-add-text-subtitles/17584272#17584272)
   
   ### Note
   Vlc on Ubuntu may have problem in visualize captions. I solved installing vlc from `apt-get` instead of `snap`

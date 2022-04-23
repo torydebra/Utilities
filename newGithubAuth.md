@@ -20,6 +20,9 @@ git config --global credential.helper /usr/share/doc/git/contrib/credential/libs
 now **Use the new token created as described above as password**
 Next time will be the last time we will use the token to authenticate...
 
+### Reset stored password
+1. Install Seahorse (https://wiki.gnome.org/Apps/Seahorse)
+2. Use it, it is a GUI 
 
 ### SSH locked keyring problem
 I had some problem when running the procedure for store the token when doing from a remote ssh (like on the raspberry)

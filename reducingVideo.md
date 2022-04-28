@@ -1,4 +1,4 @@
-##Reducing video size with ffmpeg
+## Reducing video size with ffmpeg
 
 `ffmpeg -i VIDEO.mp4 -filter:v "fps=fps=30, scale=1280:-1" -vcodec libx265 -crf 30 -c:a copy VIDEOREDUCED.mp4`
 
@@ -10,6 +10,7 @@ Options:
 
 ### Script for reduce all video ending with .MP4 in a folder renaming each with an appended "_low.mp4"
 
+~~~sh
 rename="_low.mp4"
 for f in *.MP4
 do
@@ -18,3 +19,4 @@ do
   ffmpeg -i "$f" -filter:v "fps=fps=60, scale=1280:-1" -vcodec libx265 -crf 30 -c:a copy "$filename$rename"
 
 done
+~~~

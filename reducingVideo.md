@@ -20,3 +20,19 @@ do
 
 done
 ~~~
+
+
+### ISSUES
+```
+[mp4 @ 0x564d5f06b440] Could not find tag for codec pcm_s16be in stream #1, codec not currently supported in container
+Could not write header for output file #0 (incorrect codec parameters ?): Invalid argument
+Error initializing output stream 0:0 -- 
+```
+
+from [this](https://stackoverflow.com/questions/47495713/could-not-find-tag-for-codec-pcm-alaw-in-stream-1-codec-not-currently-supporte)
+
+use `-c:a acc` like:
+```
+ffmpeg -i input.mov -c:v copy -c:a aac output.mp4
+```
+

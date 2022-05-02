@@ -11,6 +11,7 @@ Options:
 ### Script for reduce all video ending with .MP4 in a folder renaming each with an appended "_low.mp4"
 
 ~~~sh
+#!/bin/bash
 rename="_low.mp4"
 for f in *.MP4
 do

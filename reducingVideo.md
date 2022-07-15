@@ -2,6 +2,9 @@
 
 `ffmpeg -i VIDEO.mp4 -filter:v "fps=fps=30, scale=1280:-1" -vcodec libx265 -crf 30 -c:a copy VIDEOREDUCED.mp4`
 
+ffmpeg -i VIDEO.mp4 -vcodec libx265 -crf 30 -c:a copy VIDEOREDUCED.mp4
+
+
 Options:
 - Most important is crf. Since a reasonable range for H.265 may be 24 to 30. Note that lower CRF values correspond to higher bitrates, and hence produce higher quality videos.
 

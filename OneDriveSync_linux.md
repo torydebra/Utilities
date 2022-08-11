@@ -52,6 +52,13 @@ To sync if config files are changed:
 onedrive --synchronize --verbose --resync
 ~~~
 
+## Reset authorization
+This happens each time onedrive pass has changed. Currently onedriveLinux bug give notification each seconds about failed auth, so you have to do it immediately to not get annoyed
+```bash
+rm ~/.config/onedrive/refresh_token
+onedrive --synchronize --verbose 
+```
+with the second command, the uri will be requested again, as in Activation section above
 
 ## Notes
 Is it possible to set different local folder to sincro with specific remote folders? Who knows

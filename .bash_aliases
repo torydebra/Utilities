@@ -14,6 +14,9 @@ alias tpo_gui='cd ~/TelePhysicalOperation/tpo_gui && source ./devel/setup.bash'
 
 alias kdev='~/Applications/KDevelop-5.6.1-x86_64_98f9d552ad467fee6aabde145f22b64b.AppImage & disown && exit'
 
+alias groot='/usr/local/lib/groot/Groot'
+alias groot2='~/BehaviorTreeLibs/Groot2/bin/groot2'
+
 alias tpo_pull='echo -e "\e[96mPulling telephysicaloperation...\e[0m" && cd ~/TelePhysicalOperation/src && git pull &&
                 echo -e "\e[96mPulling tpo_msgs...\e[0m" && cd ~/TelePhysicalOperation/src/tpo_msgs && git pull &&
                 echo -e "\e[96mPulling tpo_gazebo...\e[0m" && cd ~/TelePhysicalOperation/src/tpo_gazebo && git pull &&

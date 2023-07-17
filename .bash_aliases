@@ -14,6 +14,16 @@ alias tpo_gui='cd ~/TelePhysicalOperation/tpo_gui && source ./devel/setup.bash'
 
 alias rob='cd ~/TelePhysicalOperation/robots && source ./devel/setup.bash'
 
+alias sour='source /opt/ros/noetic/setup.bash && 
+	        source /opt/xbot/setup.sh &&
+            source ~/TelePhysicalOperation/devel/setup.bash --extend &&
+            source ~/TelePhysicalOperation/robots/devel/setup.bash --extend &&
+            source ~/tf_visual_tools/devel/setup.bash --extend &&
+            source ~/moveit_planning/devel/setup.bash --extend &&
+            source ~/ros_xbot_hw_interface/devel/setup.bash --extend &&
+            source ~/HARIA/devel/setup.bash
+           '
+
 alias kdev='~/Applications/KDevelop-5.6.1-x86_64_98f9d552ad467fee6aabde145f22b64b.AppImage & disown && exit'
 
 alias groot='/usr/local/lib/groot/Groot'

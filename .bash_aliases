@@ -70,3 +70,10 @@ alias tpo_make='echo -e "\e[96mCompiling telephysicaloperation and tpo_msgs...\e
                 echo -e "\e[96mCompiling tpo_web_gui...\e[0m" && cd ~/TelePhysicalOperation/tpo_web_gui/ && catkin_make &&
                 echo -e "\e[96mCompiling tpo_gui...\e[0m" && cd ~/TelePhysicalOperation/tpo_gui/ && catkin_make &&
                 cd ~/TelePhysicalOperation'
+                
+### Xbot conf
+alias xbot_haria='set_xbot_config /home/tori/HARIA/src/HARIA_project/config/xbot_haria_config.yaml'                              
+alias xbot_magician='set_xbot_config /home/tori/MAGICIAN/src/MAGICIAN-organizational/config/relax_arm_xbot.yaml'   
+alias xbot_centauro='set_xbot_config /home/tori/TelePhysicalOperation/src/telephysicaloperation/config/centauro_main.yaml'                          
+alias xbot_relax='set_xbot_config /home/tori/TelePhysicalOperation/src/telephysicaloperation/config/relax_basic.yaml'       
+      
